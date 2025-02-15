@@ -3,11 +3,11 @@ import Link from 'next/link'
 function page() {
   return (
     <div className='w-full h-full'>
-        <div className='w-screen h-screen flex justify-center items-center border border-white bg-[url(/img/bg2.jpg)] object-fill bg-center '>
+        <div className='w-screen h-screen flex justify-center items-center border border-white bg-[url(/img/blue.jpg)] object-fill bg-center '>
            
-            <div className='border border-black h-[560px] w-[420px] bg-white text-black flex justify-center items-center flex-col gap-3 relative'>
+            <div className='border bg-[url(/img/blue.jpg)] border-black h-[560px] w-[420px] bg-white text-black flex justify-center items-center flex-col gap-3 relative'>
              
-              <Link href="/home" className='text-[30px] font-bold absolute top-5'>GEC BAZZAR</Link>
+              <Link href="/home" className='text-[30px] font-bold absolute top-5'>GEC BAZAAR</Link>
 
               <div className='text-black font-bold text-[20px]'>SIGN UP</div>
 
@@ -15,7 +15,7 @@ function page() {
 
                 <div>
                 <label >Email : </label><br/>
-                <input type="email" placeholder='enter your email .. ' className='border border-black px-[40px] py-[13px]'/>
+                <input type="email" placeholder='Enter your email' className='border border-black px-[40px] py-[13px]'/>
                 </div>
 
               <div className='flex justify-center items-center'>
