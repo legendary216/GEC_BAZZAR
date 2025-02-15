@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div>
       <div className='flex justify-between items-center p-2 border border-white'>
-        <div className='text-[30px] font-bold' >GEC BAZZAR</div>
+        <div className='text-[30px] font-bold' >GEC BAZAAR</div>
         <div className='flex justify-center items-center gap-3'>
         
          <div className='flex justify-center items-center gap-1 pr-2'>
