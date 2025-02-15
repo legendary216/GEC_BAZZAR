@@ -14,8 +14,8 @@ function page() {
             <p>continue as?</p>
 
             <div className='flex gap-10'>
-                <Link href="/login"> <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-[15px] px-[50px] rounded w-[80px] flex justify-center items">user</button></Link>
-           <Link href="/loginadmin"><button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-[15px] px-[50px] rounded w-[80px] flex justify-center items">admin</button></Link>
+                <Link href="/login"> <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-[15px] px-[50px] rounded w-[80px] flex justify-center items hover:scale-90 transform transition duration-75">user</button></Link>
+           <Link href="/loginadmin"><button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-[15px] px-[50px] rounded w-[80px] flex justify-center items hover:scale-90 transform transition duration-75">admin</button></Link>
             
             </div>
 

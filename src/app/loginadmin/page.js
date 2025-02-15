@@ -25,7 +25,7 @@ function page() {
 
               <div className='flex justify-center items-center'>
 
-            <Link href="/mainadmin">  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-[5px] px-[15px] rounded w-[80px] flex justify-center items-center">SUBMIT</button></Link>
+            <Link href="/mainadmin">  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-[5px] px-[15px] rounded w-[80px] flex justify-center items-center hover:scale-90 transform transition duration-75">SUBMIT</button></Link>
             
               </div>
               </form>
