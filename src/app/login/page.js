@@ -3,9 +3,9 @@ import Link from 'next/link'
 function page() {
   return (
     <div className='w-full h-full'>
-        <div className='w-screen h-screen flex justify-center items-center border border-white bg-[url(/img/bg2.jpg)] object-fill bg-center '>
+        <div className='w-screen h-screen flex justify-center items-center border border-white bg-[url(/img/blue.jpg)] object-fill bg-center '>
            
-            <div className='border border-black h-[560px] w-[420px] bg-white text-black flex justify-center items-center flex-col gap-4 relative'>
+            <div className='border bg-[url(/img/blue.jpg)] border-black h-[560px] w-[420px] bg-white text-black flex justify-center items-center flex-col gap-4 relative'>
              
               <Link href="/home" className='text-[30px] font-bold absolute top-5'>GEC BAZAAR</Link>
 
@@ -20,7 +20,7 @@ function page() {
 
               <div>
                 <label>Password : </label><br/>
-                <input type="email" required placeholder='Enter password' className='border border-black px-[40px] py-[13px]'/>
+                <input type="password" required placeholder='Enter password' className='border border-black px-[40px] py-[13px]'/>
               </div>
           
               <div className='flex justify-center items-center'>
@@ -32,7 +32,7 @@ function page() {
 
             <div className='flex justify-center items-center absolute bottom-[100px] gap-3 text-[13px]'>
               <p>not yet registered? </p>
-              <Link href="signup"> <p className='text-blue-500 cursor-pointer underline underline-offset-1'>  CLICK HERE </p></Link>
+              <Link href="signup"> <p className='text-blue-900 cursor-pointer underline underline-offset-1'>  CLICK HERE </p></Link>
              
             </div>
               
