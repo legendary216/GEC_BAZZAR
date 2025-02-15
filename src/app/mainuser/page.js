@@ -13,7 +13,7 @@ export default function page() {
             <div className=' w-[30px] h-[30px] '>
               <img src="/img/noob.jpg" className='rounded-2xl '/>
             </div>
-            <div>username</div>
+            <div>usernamee</div>
          </div>
           
         </div>
