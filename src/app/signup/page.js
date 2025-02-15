@@ -7,7 +7,7 @@ function page() {
            
             <div className='border bg-[url(/img/blue.jpg)] border-black h-[560px] w-[420px] bg-white text-black flex justify-center items-center flex-col gap-3 relative rounded-xl'>
              
-              <Link href="/home" className='text-[30px] font-bold absolute top-5'>GEC BAZAAR</Link>
+              <Link href="/" className='text-[30px] font-bold absolute top-5'>GEC BAZAAR</Link>
 
               <div className='text-black font-bold text-[20px]'>SIGN UP</div>
 
