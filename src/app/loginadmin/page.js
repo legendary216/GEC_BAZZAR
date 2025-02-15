@@ -5,7 +5,7 @@ function page() {
     <div className='w-full h-full'>
         <div className='w-screen h-screen flex justify-center items-center border border-white bg-[url(/img/blue.jpg)] object-fill bg-center '>
            
-            <div className='border border-black h-[560px] w-[420px] bg-[url(/img/blue.jpg)] text-black flex justify-center items-center flex-col gap-4 relative'>
+            <div className='border border-black h-[560px] w-[420px] bg-[url(/img/blue.jpg)] text-black flex justify-center items-center flex-col gap-4 relative rounded-xl'>
              
               <Link href="/home" className='text-[30px] font-bold absolute top-5'>GEC BAZAAR</Link>
 
@@ -15,12 +15,12 @@ function page() {
 
                 <div>
                 <label >Email : </label><br/>
-                <input type="email" placeholder='Enter your email' className='border border-black px-[40px] py-[13px]'/>
+                <input type="email" placeholder='Enter your email' className='border border-black px-[40px] py-[13px] rounded-xl'/>
                 </div>
 
               <div>
                 <label>Password : </label><br/>
-                <input type="password" required placeholder='Enter password' className='border border-black px-[40px] py-[13px]'/>
+                <input type="password" required placeholder='Enter password' className='border border-black px-[40px] py-[13px] rounded-xl'/>
               </div>
 
               <div className='flex justify-center items-center'>
