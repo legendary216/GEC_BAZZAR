@@ -9,8 +9,10 @@ function page() {
             <div className='flex flex-col justify-center items-center '>
             <div className='text-[50px]  font-bold'> Welcome To  </div>
             <div className='text-[100px]  font-bold'>GEC BAZAAR </div>
-            </div>
+            <p >From boiler suits to books, we've got your college essentials covered!</p>
 
+            </div>
+           
             <p>continue as?</p>
 
             <div className='flex gap-10'>
