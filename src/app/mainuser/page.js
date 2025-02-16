@@ -1,7 +1,7 @@
-import React from 'react'
+"use client"
+import React,{ useEffect, useState } from 'react'
 import Link from 'next/link'
 
-"use client"
 
 const slider= [
     {
@@ -150,4 +150,4 @@ export function Slider() {
       )
 }
 
-export default page
+export default Slider
