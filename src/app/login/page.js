@@ -5,7 +5,7 @@ function page() {
     <div className='w-full h-full'>
         <div className='w-screen h-screen flex justify-center items-center border border-white bg-[url(/img/blue.jpg)] object-fill bg-center '>
            
-            <div className='border bg-[url(/img/blue.jpg)] border-black h-[560px] w-[420px] bg-white text-black flex justify-center items-center flex-col gap-4 relative'>
+            <div className='border 0 border-black h-[560px] w-[420px] bg-white text-black flex justify-center items-center flex-col gap-4 relative'>
              
               <Link href="/home" className='text-[30px] font-bold absolute top-5'>GEC BAZAAR</Link>
 
