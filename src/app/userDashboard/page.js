@@ -132,19 +132,19 @@ export function Slider() {
     
           <div id="section-1" className="mt-[70vh] min-h-screen bg-gray-100 p-10">
             <h2 className="text-2xl">Section 1</h2>
-            <p>Content for Section 1...</p>
+            <p>Content for Section 1</p>
           </div>
           <div id="section-2" className="min-h-screen bg-gray-200 p-10">
             <h2 className="text-2xl">Section 2</h2>
-            <p>Content for Section 2...</p>
+            <p>Content for Section 2</p>
           </div>
           <div id="section-3" className="min-h-screen bg-gray-300 p-10">
             <h2 className="text-2xl">Section 3</h2>
-            <p>Content for Section 3...</p>
+            <p>Content for Section 3</p>
           </div>
           <div id="section-4" className="min-h-screen bg-gray-400 p-10">
             <h2 className="text-2xl">Section 4</h2>
-            <p>Content for Section 4...</p>
+            <p>Content for Section 4</p>
           </div>
         </div>
       )
