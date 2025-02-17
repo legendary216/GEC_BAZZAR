@@ -41,10 +41,10 @@ const slider= [
 export function Slider() {
     const [currentIndex, setCurrentIndex] = useState(0);
   
-    useEffect(() => {
+    useEffect(() => { 
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) =>
-          prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+          prevIndex === slider.length - 1 ? 0 : prevIndex + 1
         );
       }, 4000);
   
@@ -57,13 +57,13 @@ export function Slider() {
   
     const nextSlide = () => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+        prevIndex === slider.length - 1 ? 0 : prevIndex + 1
       );
     };
   
     const prevSlide = () => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+        prevIndex === 0 ? slider.length - 1 : prevIndex - 1
       );
     };
   
@@ -79,7 +79,8 @@ export function Slider() {
     return (
         <div className="relative w-full max-w-6xl mx-auto overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-[70vh]">
-            {slides.map((slide, index) => (
+            {
+            slider.map((slide, index) => (
               <div
                 key={slide.id}
                 className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-in-out ${
@@ -118,7 +119,7 @@ export function Slider() {
             </button>
     
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
-              {slides.map((_, index) => (
+              {slider.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => goToSlide(index)}
